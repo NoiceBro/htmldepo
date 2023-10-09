@@ -1,0 +1,76 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <title> ABC TASARIM PROGRAMI KURULUM VE SATIŞ SÖZLEŞMESİ</title>
+        <table  rowspan="20" cellpadding="50" >
+            <tr>  
+            <center>ABC TASARIM PROGRAMI KURULUM VE SATIŞ SÖZLEŞMESİ</center>
+
+            <form action="anasayfa.html">
+            <fieldset style="background-color: brown;">
+                    
+                <legend style="font-size: larger;"> Sözleşme kabul</legend>
+                        <input type="checkbox" name="onay" checked="on"> aşağıdaki bilgilerin doğruluğunu kabul ediyorum ve sözleşmeyi onaylarım <br><br/>
+                        <input type="submit" value="formu kaydet">
+                        <input type="reset" value="formu temizle">
+                        
+            </fieldset>
+               
+             
+                <fieldset style="background-color: blue;">
+                    <legend style="font-size: larger;"> Kişisel Bilgiler</legend>
+                    <label for="">Adsoyad</label>
+                    <input type="text" name="adsoyad" required="required"/><br><br/>
+                    <label for="">eposta</label>
+                    <input type="email" name="eposta" required="required"/><br><br/>
+                    <label for="">Yaş</label>
+                    <input type="text" name="yaş" required="required"/><br><br/>
+                    <label for="">eposta</label>
+                    <input type="email" name="eposta" required="required"/><br><br/>
+                
+                    
+                    </fieldset>
+                    <fieldset style="background-color: purple;" style="font-size: larger;" >
+                        <legend style="font-size: larger;"> Diğer bilgiler</legend>       
+                       Buradaki alanlar Mesleki deneyimi kapsar <br><br/>      
+                        <label for="">doğum tarihi</label>
+                        <input type="date" name="dogumtarihi" required="required"/>tarih<br><br/>
+                        <input type="radio" name="yil1" value="1-5" checked="on"/>1-5<br><br/>
+                        <input type="radio" name="yil2" value="5-10" checked="on"/>5-10<br><br/>
+                        <b>sektör deneyimi</b><br><br/>
+                        <input type="radio" name="yil3" value="10-15" checked="on"/>10-15<br><br/>
+                        <input type="radio" name="yil4" value="15-20" checked="on"/>15-20<br><br/>
+                        <input type="radio" name="yil5" value="20-25" checked="on"/>20-25<br><br/>
+                        <p> e-posta: <input type="email" name="e-posta "></p>
+                        <p> parola: <input type="password" name="sifre "></p>
+                        <select name="dil" id="dil" multiple>
+                            <option value="">C</option>
+                            <option value="">C##</option>
+                            <option value="">java</option>
+                            <option value="">pascal</option>
+                            <option value="">pythone</option>
+        
+                        </select>
+        
+        
+                        </fieldset>
+                        <fieldset style="background-color:cadetblue;" > 
+                    
+                            <legend > Sözleşme kopyası</legend>
+                        <textarea name="sözleşme"  cols="30" rows="10"></textarea>
+                        </fieldset>
+                        <fieldset style="background-color: palevioletred;">
+                            <legend> Mail listesi</legend>
+                            Mail listesine katılmak istiyorum  <input type="radio" name="secim"> <br><br/>
+                            Mail listesine katılmak <ins>istemiyorum </ins> <input type="radio" name="secim">  <br><br/>
+                        </fieldset>
+                        
+
+        
+            
+           
+             </form>
+    </body>
+</html>
